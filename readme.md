@@ -1,4 +1,4 @@
-# Storylock Holmes
+# Storylock Holmes: The AI Detective Agent in the IPverse at Story Protocol.
 ![storylock](https://github.com/user-attachments/assets/f4e3ead2-2c86-4b9a-8658-3888b1c821db)
 
 ## Links:
@@ -18,7 +18,7 @@
 
 ## Introduction
 
-**Storylock Holmes: The Sherlock Holmes in the IPverse.**
+**Storylock Holmes: The AI Detective Agent in the IPverse.**
 
 Storylock Holmes is a detective on Social Media. He won't miss any intellectual property theft on Twitter, and he can find all the details between two different versions of the same pictures. 
 
