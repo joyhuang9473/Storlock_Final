@@ -1,6 +1,17 @@
 # Storylock Holmes
 ![storylock](https://github.com/user-attachments/assets/f4e3ead2-2c86-4b9a-8658-3888b1c821db)
 
+## Links:
+
+[Storylock AI Agent on X (Twitter)](https://x.com/StorylockAI)
+
+[Storylock Frontend](https://storylock.vercel.app/)
+
+[Frontend Code](https://github.com/Carnegie-Mellon-Blockchain/Storylock-Frontend)
+
+[Storylock AI Agent ElizaOS](https://github.com/Carnegie-Mellon-Blockchain/Storylock-Holmes)
+
+[AI Agent script that automatically registers user's tweets to IP](https://gist.github.com/story000/678b0101b9bdad9dda8fd96a50bcf7fc)
 
 
 ## Introduction
