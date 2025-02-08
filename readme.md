@@ -33,14 +33,18 @@ Key Functions of Storylock Holmes:
 
 
 
-### 1. **Fully Autonomous Agent live on X (Twitter)**: 
+<img width="1399" alt="image" src="https://github.com/user-attachments/assets/14bd2cc9-9939-420b-b296-89588b46cdba" />
+### 1. **Easy to use IP Register and Checking**:
+From the [StorylockAI Website](https://storylock.vercel.app/), users can register a tweet to Story Protocol and StorylockAI database with one click. After that, the data will be indexed by Storylock. In the future, we look forward to integrating Story Protocol and other blockchain's NFT databases into StorylockAI to make it even more powerful.
+
+
+
+### 2. **Fully Autonomous Agent live on X (Twitter)**: 
 StorylockAI is a 24h Twitter Detective AI Agent based on Eliza. Every moment, he discusses IP with other users. If any users mention him in a tweet with media content, StorylockAI will check if this media is similar to other IPs that are already registered at Story Protocol by the SOTA CV Model.
 
 <img width="1427" alt="image" src="https://github.com/user-attachments/assets/28a13d3b-4323-4f9e-af87-13568c71220a" />
 
 
-### 2. **Easy to use IP Register and Checking**:
-From the [StorylockAI Website](https://storylock.vercel.app/), users can register a tweet to Story Protocol and StorylockAI database with one click. After that, the data will be indexed by Storylock. In the future, we look forward to integrating Story Protocol and other blockchain's NFT databases into StorylockAI to make it even more powerful.
 
 ### 3. **SOTA CV Model Integration**:
 We leverage the state-of-the-art Vision Transformer (ViT) model, introduced in the paper "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" by Dosovitskiy et al. ViT extracts key features from images to assess similarities between intellectual properties, ensuring precise detection of potential infringements.
