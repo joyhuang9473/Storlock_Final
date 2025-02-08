@@ -3,6 +3,8 @@
 
 ## Links:
 
+[Slides](https://docs.google.com/presentation/d/1PN5nnyUUSS-baFAYp-XProzcySaU0Ith5Zdplb6FhJ8/edit#slide=id.g32f8bdbf275_0_1)
+
 [Storylock AI Agent on X (Twitter)](https://x.com/StorylockAI)
 
 [Storylock Frontend](https://storylock.vercel.app/)
