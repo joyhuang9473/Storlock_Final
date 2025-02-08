@@ -34,7 +34,9 @@ Key Functions of Storylock Holmes:
 
 
 <img width="1399" alt="image" src="https://github.com/user-attachments/assets/14bd2cc9-9939-420b-b296-89588b46cdba" />
-### 1. **Easy to use IP Register and Checking**:
+
+### 1. Easy to use IP Register and Checking:
+
 From the [StorylockAI Website](https://storylock.vercel.app/), users can register a tweet to Story Protocol and StorylockAI database with one click. After that, the data will be indexed by Storylock. In the future, we look forward to integrating Story Protocol and other blockchain's NFT databases into StorylockAI to make it even more powerful.
 
 
