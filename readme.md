@@ -1,99 +1,38 @@
 # Storylock Holmes
 
-![Logo](./docs/logo.png)
+![pics](./pics/logo.jpg)
 
 ## Introduction
 
-**dAIp: AI-enhanced Dapp Creation, Unlocking Web3's Full Potential**
+**Storylock Holmes: The Sherlock Holmes in the IPverse.**
 
-dAIp is a website builder for creating composable, IP-protected Dapps, empowering builders' monetization through AI and royalties.
+Storylock Holmes is a detective on Social Media. He won't miss any interllectual property theft on Twitter and he can find all the details between two different versions of the same pictures. 
 
-Creating fully functioning Dapps is costly and complex, limiting adoption despite growing blockchain infrastructure. dAIp aims to solve this by leveraging AI to simplify the Dapp creation process, reducing technical barriers and costs. Our platform empowers teams of all sizes to customize Dapp templates effortlessly, fostering more real-world Web3 use cases. dAIp also addresses the IP of AI-generated creations, incorporating royalty systems, group collaboration, and a dispute resolution module, ensuring creators' rights and fair distribution of rewards.
+Storylock holmes protects your IP on Social Media. The detective will automatically register your IP on Story Protocol and monitor the infringement of your IP. Using the cutting-edge Computer Vision model, he can find whether two pictures originate from the same source however noises you put on those pictures. Every time he finds an infringement, he will send you a notification and notify the infringer to take down the picture.
+
+He is also a good assistant for your intellectual property management. Ask him any questions about your IP and he will give you the answers.
 
 ## Features
 
-Key Functions of dAIp:
+Key Functions of Storylock Holmes:
 
-**AI-Driven Template Modification**: Users can easily modify existing templates by communicating their desired changes to the AI, which will generate updated Dapp designs in real time.
+**Fully Autonomous Agent live on Twitter**: Storylock holmes is a 24h Twitter Detective AI Agent based on Eliza. Every moment, he's automatically grabbing tweets from the timeline and his follow list, getting real-time messages, replies, and Reposts.
 
-**IP Protection via NFTs**: Once a user customizes a template, it can be registered as an NFT, serving as a verifiable record of intellectual property ownership.
+**IP Protection**: Once a user customizes an unique IP(Meme,Tweet, Video etc.), Storylock holmes will register it as an IP on Story Protocol, serving as a verifiable record of intellectual property ownership.
 
-**IP Dispute Resolution**: A decentralized system to handle any IP disputes within the ecosystem, ensuring fairness and protection of creator rights.
+**SOTA CV Model Integration**: We use the latest CV model to find the similarity between two intellectual properties. Combing both our IP database and Story Protocol Explorer, he can find the infringement of your IP.
 
-**Royalty Distribution**: dAIp enables creators to embed royalty mechanisms directly into their templates, allowing them to earn from future use and iterations of their work.
+**IP Dispute Resolution**: A decentralized system to handle any IP disputes within the ecosystem, ensuring fairness and protection of creator rights. Anyone wanna register an IP assets that belongs to others to Story Protocol will get auto-blocked by Storylock Holmes.
 
-**Grouping of Templates**: Multiple templates can be grouped together to create complex Dapps, enabling seamless collaboration across different functionalities.
+
 
 ## Bounty Writeup
 
-### Phala-Network
+### Story
 
 Code: 
 
-dAIp's backend is powered by Phala Network, leveraging its Trusted Execution Environment (TEE) for secure and confidential computation.
-```bash
-cd backend
-docker-compose up 
-```
+Storylock Holmes is powered by Story Protocol, leveraging its distributed and lego-like IPFI stackable architecture. Even though IP has a 61T Market, the technology in the IP area growes as slow as a turtle. Story Protocol is the only one that can provide a full-stack solution for IP protection and management, making IP protection and registration as easy as sending a tweet.
 
-View the API at http://0.0.0.0:9001/core/tee/
+Storylock Holmes aimes to be the frontend of Story Protocol. We believe that agents will definitely be the new UI of Internet. And we want to make IP protection and management as easy as sending a tweet.
 
-### Near Protocol
-
-User owned AI is Near
-Bring AI and Web3 together to enable a user-owned internet that guarantees privacy and ownership of data and assets, where everyone can be a builder. Some ideas to explore:
-* Build autonomous agents and explore their on-chain interaction on Near
-
-Code path: backend/dAIp/contracts/near/README.md
-Smart contract on testnet: daip.prelaunch.testnet
-https://explorer.testnet.near.org/transactions/5DPew78Fk5pGmXXofXc3SugBvrGejQqHXg1hnnPcC8Dj
-
-1. Chat:
-https://explorer.testnet.near.org/transactions/2b9KTxb8z5oGrbmbsQgQVrGya7mCY2y87ysrVXQfaBxz
-
-2. Reply by anonymous service provider:
-https://explorer.testnet.near.org/transactions/B3P4RSF3VPGnE4siNbbf8rhiRmynq1MEiAjGx9R1n32y
-
-Takeaway:
-We find a bug while functionCall()
-
-```bash
-Scheduling a call: daip.prelaunch.testnet.new()
-Doing account.functionCall()
-Receipt: FA8Xa2f6QdR97R8vPctShyazuYHquoyJZMa8HsMDnBtj
-        Failure [daip.prelaunch.testnet]: Error: Error happened while deserializing the module
-ServerTransactionError: Error happened while deserializing the module
-    at Object.parseResultError (/usr/local/lib/node_modules/near-cli/node_modules/near-api-js/lib/utils/rpc_errors.js:31:29)
-    at Account.signAndSendTransactionV2 (/usr/local/lib/node_modules/near-cli/node_modules/near-api-js/lib/account.js:160:36)
-    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
-    at async scheduleFunctionCall (/usr/local/lib/node_modules/near-cli/commands/call.js:57:38)
-    at async Object.handler (/usr/local/lib/node_modules/near-cli/utils/exit-on-error.js:52:9) {
-  type: 'Deserialization',
-  context: undefined,
-```
-
-Debug contract compilation: set rustup to 1.77, higher version maybe cause deseralization error.
-
-### Walrus
-
-dAIp leverages Walrus to securely upload and store files on its decentralized network, linking them to SUI objects. This empowers users to interact with SUI objects for future transactions, dApps customization, and asset representation in a seamless, verifiable manner, ultimately catalyzing innovative solutions in the community.
-
-- Code path: backend/core/walrus_upload.py    
-- References: https://github.com/MystenLabs/walrus-docs/tree/main/examples
-- CodeBlock Metadata Storage: https://testnet.suivision.xyz/object/0x12fabab08a72acd508ebbfa1ab4f6379777c6fa2d7c4c4438e1f8a158883d9c5
-
-### Dynamic Wallet
-
-We use Dynamic (Production Environment) to onboard more users from Web2 to our platform. 
-To support the Story Protocol Iliad testnet, we've added Network Configuration to Dynamic. 
-This helps us with monetization from customer and enhances the user interaction experience.
-
-Code: frontend/src/components/DynamicModel/WalletWidget.tsx#7
-
-### Unlimit 
-
-In Daip code block cases, we use Unlimit for user onramp with host module in sandbox env.
-
-Schema Url: https://onramp-sandbox.gatefi.com/?merchantId={merchantId}&cryptoCurrency=eth&cryptoAmount={NFT_FEE}&cryptoAmountLock=True&cryptoCurrencyLock=True&fiatCurrency=USD&fiatCurrencyLock=True&wallet={AGENT_ADDRESS}
-Unlimit web hook: https://daip.buidler.house/core/webhook/
-We want users to pay with USD to mint NFT, when we receive the onramp.sucess event, we mint NFT to user by the agent wallet after blocks confirmation.
